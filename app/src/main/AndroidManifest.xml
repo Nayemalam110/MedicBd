@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doctorhere">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hospital_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/hospital_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomDocDetails"
+            android:label="Home Doctor"
+            ></activity>
+        <activity android:name=".HDocAct"
+            android:label="Home Doctor"/>
+        <activity android:name=".HDoc"
+            android:label="Home Doctor"
+            />
+        <activity android:name=".PhyDetailsClass"
+            android:label="Pharmacy"
+            />
+        <activity android:name=".PhyAct"
+            android:label="Pharmacy"
+            />
+        <activity android:name=".MedicineDetailsClass"
+            android:label="Medicine"
+            />
+        <activity android:name=".DocDetailsClass"
+            android:label="Home Doctor"
+            />
+        <activity android:name=".BloDetailsClass"
+            android:label="Blood Bank"
+            />
+        <activity android:name=".AmbDetailsClass"
+            android:label="Ambulance Service"
+            />
+        <activity android:name=".DocAct"
+            android:label="Home Doctor"
+            />
+        <activity android:name=".BloAct"
+            android:label="Blood Bank"
+            />
+        <activity android:name=".HosDetailsClass"
+            android:label="Hospital"
+            />
+        <activity android:name=".AmbAct"
+            android:label="Ambulance Service"
+            />
+        <activity android:name=".MedAct"
+            android:label="Medicine"
+            />
+        <activity android:name=".Amb"
+            android:label="Hospital"
+            />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

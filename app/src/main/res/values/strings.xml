@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MedicBd</string>
+    <string name="hospital">Hospital</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="doctor">Home Doctor</string>
+    <string name="medicine">Medicine</string>
+    <string name="blood_bank">Blood Bank</string>
+    <string name="drug_store">Drug Store</string>
+</resources>

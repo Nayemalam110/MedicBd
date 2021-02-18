@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".AmbAct">
+
+    <Spinner
+        android:id="@+id/disspineerid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="#2C3D7A"
+        android:spinnerMode="dialog" />
+
+    <Spinner
+        android:id="@+id/arspinnerid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:spinnerMode="dialog"
+
+        />
+
+    <Button
+        android:id="@+id/ambsearchbuttonbid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search" />
+
+    <ListView
+        android:id="@+id/amblistviewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#000000"
+        android:dividerHeight="2dp"
+        android:listSelector="#3A8A51"
+        android:padding="5dp"
+        android:textAlignment="center"
+
+        />
+</LinearLayout>
